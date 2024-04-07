@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<style>
+    * {
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(154, 0, 182);
+    }
+
+    .main {
+        border: 2px solid transparent;
+        border-radius: 10px;
+        width: 70%;
+        height: 70vh;
+        margin-left: 350px;
+        margin-top: 120px;
+        display: flex;
+
+    }
+
+    .half {
+        width: 50%;
+        height: 80vh;
+      
+        background-image: url(ima/mm.jpg);
+        background-size: cover;
+        animation-name: change;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes change {
+        0% {
+            background-image: url("ima/bn.png");
+        }
+
+        40% {
+            background-image: url("ima/bvb.jpg");
+        }
+    }
+
+    .half1 {
+        background-color: rgb(242, 132, 246);
+        width: 39%;
+        height: 80vh;
+      
+ 
+    }
+
+    h1 {
+        margin-left: 190px;
+        font-size: 50px;
+        color: white;
+    }
+
+    p {
+        margin-left: 60px;
+       
+        font-size: 25px;
+        color: white;
+
+    }
+
+    input {
+        margin-left: 70px;
+        height: 20px;
+        width: 70%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: none;
+display: flex;
+        font-size: 18px;
+
+
+
+    }
+
+    input:hover {
+        border-bottom: 3px solid rgb(60, 0, 80);
+    }
+
+    #confirm {
+        margin-left: 70px;
+        height: 20px;
+        width: 71%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    button {
+        margin-left: 235px;
+        height: 40px;
+        padding: 5px;
+        font-size: 22px;
+        color: blueviolet;
+        border-radius: 5px;
+        border: 2px solid purple;
+    }
+
+    h6 {
+        font-size: 20px;
+        margin-left: 250px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    #goog {
+        margin-left: 180px;
+
+    }
+
+    i {
+        margin-left: 30px;
+        padding-top: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    #passerror {
+        font-size: 18px;
+        color: red;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
+
+    #passconfirm {
+        font-size: 18px;
+        color:red;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
+    #firsta{
+        font-size: 18px;
+        color: red;
+         margin-top: 0px;
+        margin-left: 75px; 
+        margin-bottom:  0px; 
+    
+    }
+    #lasta{
+        font-size: 18px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 75px; 
+        margin-bottom:  0px; 
+    }
+    #emaila{
+        font-size: 18px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 75px; 
+        margin-bottom:  0px; 
+    }
+    #numbera{
+        font-size: 18px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 75px; 
+        margin-bottom:  0px; 
+    }
+    #birtha{
+        font-size: 18px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 75px; 
+        margin-bottom:  0px; 
+    }
+@media (max-width:992px){
+    * {
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(154, 0, 182);
+    }
+
+    .main {
+        border: 2px solid transparent;
+        border-radius: 10px;
+        width: 80%;
+        height: 70vh;
+        margin-left: 100px;
+        margin-top: 200px;
+        display: flex;
+
+    }
+
+    .half {
+        width: 80%;
+        height: 70vh;
+        background-image: url(ima/mm.jpg);
+        background-size: cover;
+        animation-name: change;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes change {
+        0% {
+            background-image: url("ima/bn.png");
+        }
+
+        40% {
+            background-image: url("ima/bvb.jpg");
+        }
+    }
+
+    .half1 {
+        background-color: rgb(242, 132, 246);
+        width: 80%;
+        height: 70vh;
+      
+ 
+    }
+
+    h1 {
+        margin-left: 160px;
+        font-size: 30px;
+        color: white;
+    }
+
+    p {
+        margin-left:40px;
+       
+        font-size: 20px;
+        color: white;
+
+    }
+
+    input {
+        margin-left: 50px;
+        height: 15px;
+        width: 70%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: none;
+display: flex;
+        font-size: 15px;
+
+
+
+    }
+
+    input:hover {
+        border-bottom: 3px solid rgb(63, 2, 83);
+    }
+
+    #confirm {
+        margin-left: 50px;
+        height: 15px;
+        width: 70%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    button {
+        margin-left: 165px;
+        height: 40px;
+        padding: 5px;
+        font-size: 20px;
+        color: blueviolet;
+        border-radius: 5px;
+        border: 2px solid purple;
+    }
+
+    h6 {
+        font-size: 15px;
+        margin-left: 180px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    #goog {
+        margin-left: 120px;
+
+    }
+
+    i {
+        margin-left: 30px;
+     
+        font-size: 15px;
+        color: white;
+    }
+
+    #passerror {
+        font-size: 10px;
+        color: red;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    #passconfirm {
+        font-size: 10px;
+        color:red;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    #firsta{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    
+    }
+    #lasta{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+    #emaila{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+    #numbera{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+    #birtha{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+}
+@media (max-width:768px){
+    * {
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(154, 0, 182);
+    }
+
+    .main {
+        border: 2px solid transparent;
+        border-radius: 10px;
+        width: 80%;
+        height: 70vh;
+        margin-left: 80px;
+        margin-top: 100px;
+        display: flex;
+
+    }
+
+    .half {
+        width: 80%;
+        height: 70vh;
+        background-image: url(ima/mm.jpg);
+        background-size: cover;
+        animation-name: change;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes change {
+        0% {
+            background-image: url("ima/bn.png");
+        }
+
+        40% {
+            background-image: url("ima/bvb.jpg");
+        }
+    }
+
+    .half1 {
+        background-color: rgb(242, 132, 246);
+        width: 80%;
+        height: 70vh;
+      
+ 
+    }
+
+    h1 {
+        margin-left: 130px;
+        font-size: 23px;
+        color: white;
+    }
+
+    p {
+        margin-left:30px;
+       
+        font-size: 15px;
+        color: white;
+
+    }
+
+    input {
+        margin-left: 40px;
+        height: 15px;
+        width: 70%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: none;
+display: flex;
+        font-size: 13px;
+
+
+
+    }
+
+    input:hover {
+        border-bottom: 3px solid rgb(63, 2, 83);
+    }
+
+    #confirm {
+        margin-left: 40px;
+        height: 15px;
+        width: 70%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    button {
+        margin-left: 130px;
+        height: 40px;
+        padding: 2px;
+        font-size: 15px;
+        color: blueviolet;
+        border-radius: 5px;
+        border: 2px solid purple;
+    }
+
+    h6 {
+        font-size: 15px;
+        margin-left: 140px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    #goog {
+        margin-left: 120px;
+
+    }
+
+    i {
+        margin-left: 12px;
+     
+        font-size: 15px;
+        color: white;
+    }
+
+    #passerror {
+        font-size: 10px;
+        color: red;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    #passconfirm {
+        font-size: 10px;
+        color:red;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    #firsta{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    
+    }
+    #lasta{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+    #emaila{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+    #numbera{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+    #birtha{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+}
+@media (max-width:576px){
+    * {
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(154, 0, 182);
+    }
+
+    .main {
+        border: 2px solid transparent;
+        border-radius: 10px;
+        width: 80%;
+        height: 70vh;
+        margin-left: 80px;
+        margin-top: 100px;
+    
+
+    }
+
+    .half {
+        width: 80%;
+        height: 50vh;
+        background-image: url(ima/mm.jpg);
+        background-size: cover;
+        animation-name: change;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes change {
+        0% {
+            background-image: url("ima/bn.png");
+        }
+
+        40% {
+            background-image: url("ima/bvb.jpg");
+        }
+    }
+
+    .half1 {
+        background-color: rgb(242, 132, 246);
+        width: 80%;
+        height: 40vh;
+        margin-top: 200px;
+      
+ 
+    }
+
+    h1 {
+        margin-left: 130px;
+        font-size: 23px;
+        color: white;
+    }
+
+    p {
+        margin-left:30px;
+       
+        font-size: 15px;
+        color: white;
+
+    }
+
+    input {
+        margin-left: 40px;
+        height: 15px;
+        width: 70%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: none;
+display: flex;
+        font-size: 13px;
+
+
+
+    }
+
+    input:hover {
+        border-bottom: 3px solid rgb(63, 2, 83);
+    }
+
+    #confirm {
+        margin-left: 40px;
+        height: 15px;
+        width: 70%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    button {
+        margin-left: 130px;
+        height: 40px;
+        padding: 2px;
+        font-size: 15px;
+        color: blueviolet;
+        border-radius: 5px;
+        border: 2px solid purple;
+    }
+
+    h6 {
+        font-size: 15px;
+        margin-left: 140px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    #goog {
+        margin-left: 120px;
+
+    }
+
+    i {
+        margin-left: 12px;
+     
+        font-size: 15px;
+        color: white;
+    }
+
+    #passerror {
+        font-size: 10px;
+        color: red;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    #passconfirm {
+        font-size: 10px;
+        color:red;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    #firsta{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    
+    }
+    #lasta{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+    #emaila{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+    #numbera{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+    #birtha{
+        font-size: 10px;
+        color: red;
+         margin-top: 0px;
+         margin-left: 50px;
+        margin-bottom:  0px; 
+    }
+}
+    
+ 
+
+    
+</style>
+
+<body>
+    <div class="main">
+        <div class="half"></div>
+        <div class="half1">
+            <h1>Sign In</h1>
+            <p>Sign up for free & Enjoy unlimited offers</p>
+
+
+            <input type="text" placeholder="First Name" id="first" > <p id="firsta"></p>  <input type="text" placeholder="Last name" id="last">
+            <p id="lasta"></p>
+           
+           
+         
+            <input type="email" placeholder="Enter your Email" id="email">
+            <p id="emaila"></p>
+            <input type="date" placeholder="Enter your birth" id="date">
+            <p id="birtha"></p>
+            <input type="number" placeholder="Enter your phone number" id="number">
+            <p id="numbera"></p>
+            <input type="passsword" placeholder="Enter your password" id="password">
+            <p id="passerror"></p>
+            <input type="password" placeholder="Confirm your password" id="confirm">
+            <p id="passconfirm"></p><br>
+           <button onclick="valid()">Submit</button>
+            <h6>or login</h6>
+            <hr>
+            <br>
+            <a href="https://www.google.com/" id="goog"><i class="bi bi-google"></i></a>
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+        </div>
+    </div>
+    <script>
+        function valid() {
+         
+            let password = document.getElementById("password").value;
+            let confirm = document.getElementById("confirm").value;
+            let a=document.getElementById("first").value;
+            let b=document.getElementById("last").value;
+            let c=document.getElementById("date").value;
+            let d=document.getElementById("email").value;
+            let e=document.getElementById("number").value;
+let ab=document.getElementById("password").value;
+let em= /\w+@[a-z]+\.[a-z]{2,4}[\.[a-z]+]?/;
+            let validation = /.{6}/;
+            let confirm1 = /.{6}/;
+            if(a== ""){
+                document.getElementById("firsta").innerText="Enter first name";
+            }
+            else{
+                document.getElementById("firsta").innerText="";
+
+            }
+            if(b== ""){
+                document.getElementById("lasta").innerText="Enter last name";
+            }
+            else{
+                document.getElementById("lasta").innerText="";
+
+            } if(e== ""){
+                document.getElementById("numbera").innerText="Enter your number";
+            }
+            else{
+                document.getElementById("numbera").innerText="";
+
+            } if(d== ""){
+                document.getElementById("emaila").innerText="Enter your email";
+            }
+            else if (em.test(d)) {
+                document.getElementById("emaila").innerText = "";
+            }
+          
+            else {
+                document.getElementById("emaila").innerText = "invalid email";
+
+            }
+            if(c== ""){
+                document.getElementById("birtha").innerText="Enter your birth ";
+            }
+            else{
+                document.getElementById("birtha").innerText="";
+
+            }
+          
+
+
+            if (confirm1.test(confirm)) {
+                document.getElementById("passconfirm").innerText = "password match";
+            }
+          
+            else {
+                document.getElementById("passconfirm").innerText = "password does not match";
+
+            }
+ if(ab== ""){
+                document.getElementById("passerror").innerText="Enter any 6 character";
+            }
+            else{
+                document.getElementById("passerror").innerText="";
+
+
+        }
+    }
+
+        
+    </script>
+</body>
+
+</html>
